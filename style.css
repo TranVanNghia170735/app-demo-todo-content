@@ -12,6 +12,11 @@ body {
 }
 
 /* MAIN LAYOUT */
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .header {
   margin-bottom: 40px;
   display: flex;
@@ -38,6 +43,11 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.logo img {
+  width: 68px;
+  height: 68px;
 }
 
 h1 {
